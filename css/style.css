@@ -24,6 +24,7 @@ body {
 .header {
     padding: 28px 0;
     background-color: #fff;
+    border-bottom: 2px solid #DDDDDD;
 }
 
 .header__inner {
@@ -39,7 +40,7 @@ body {
     gap: 60px;
 }
 
-.header__item {
+.header__item > a {
     font-size: 20px;
     color: #4C5866;
 }
@@ -122,6 +123,12 @@ body {
     gap: 30px;
 }
 
+.max__img {
+    width: 100%;
+    min-width: 350px;
+    max-width: fit-content;
+}
+
 .max__content {
     display: flex;
     flex-direction: column;
@@ -189,7 +196,19 @@ body {
     padding: 90px 0;
 }
 
+.brands__img, .brands__small-img {
+    width: 100%;
+}
+
+.brands__small-img {
+    display: none;
+}
+
 /* Sketchbook */
+.sketchbook-section {
+    background-color: #fff;
+}
+
 .sketchbook__inner {
     position: relative;
     padding: 120px 0;
@@ -218,6 +237,10 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.sketchbook__small-img {
+    display: none;
 }
 
 /* Footer */

@@ -1,0 +1,259 @@
+@media (max-width: 1200px) {
+    /* Hero */
+    .hero__inner {
+        padding: 60px 0;
+    }
+
+    .hero__content {
+        max-width: 400px;
+    }
+
+    .hero__title {
+        font-size: 50px;
+    }
+
+    .hero__img {
+        height: 420px;
+    }
+
+    /* Max */
+    .max-section {
+        padding: 60px 0;
+    }
+
+    .max__item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    /* Production */
+    .production__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Brands */
+    .brands-section {
+        padding: 60px 0;
+    }
+
+    /* Sketchbook */
+    .sketchbook__inner {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .sketchbook__content {
+        max-width: 100%;
+    }
+
+    .sketchbook__img {
+        display: none;
+    }
+
+    .sketchbook__small-img {
+        display: block;
+    }
+}
+
+@media (max-width: 960px) {
+    /* Header */
+    .header {
+        padding: 24px 0;
+    }
+
+    .header__list {
+        gap: 40px;
+    }
+
+    .header__item > a {
+        font-size: 18px;
+    }
+
+    /* Hero */
+    .hero__img {
+        max-width: 300px;
+    }
+
+    /* Production */
+    .production-section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .header__list {
+        gap: 30px;
+    }
+
+    .header__item > a {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    .hero__content {
+        gap: 20px;
+        max-width: 300px;
+    }
+
+    .hero__title {
+        font-size: 38px;
+    }
+
+    .hero__text {
+        font-size: 16px;
+    }
+
+    .hero__img {
+        max-height: 80%;
+    }
+
+    /* Max */
+    .max__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .max__body {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .max__content {
+        gap: 16px;
+    }
+
+    .max__title {
+        font-size: 24px;
+    }
+
+    .max__text, .max__item-title, .max__item-text {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 18px 60px;
+    }
+
+    /* Production */
+    .production__item-title {
+        font-size: 24px;
+    }
+
+    .production__item-text {
+        font-size: 16px;
+    }
+
+    /* Brands */
+    .brands__img {
+        display: none;
+    }
+
+    .brands__small-img {
+        display: block;
+    }
+
+    /* Sketchbook */
+    .sketchbook__inner {
+        padding: 90px 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .header__inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Hero */
+    .hero__inner {
+        padding: 50px 0;
+    }
+
+    .hero__content {
+        gap: 16px;
+        max-width: 500px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+    }
+
+    .hero__text {
+        font-size: 14px;
+    }
+
+    .hero__btn {
+        font-size: 18px;
+        padding: 14px 38px;
+    }
+
+    .hero__img {
+        display: none;
+    }
+
+    /* Production */
+    .production__list {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__list {
+        width: 100%;
+        max-width: calc(100vw - 30px);
+        overflow-x: scroll;
+        gap: 24px;
+    }
+
+    .header__list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .header__item > a {
+        display: block;
+        width: max-content;
+    }
+
+    /* Max */
+    .max__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .max__item {
+        width: 100%;
+        align-items: center;
+    }
+
+    /* Production */
+    .production__list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Sketchbook */
+    .sketchbook__inner {
+        padding: 60px 0;
+    }
+
+    .sketchbook__title {
+        font-size: 24px;
+    }
+
+    .sketchbook__text {
+        font-size: 16px;
+    }
+
+    .sketchbook__btn {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+    }
+}
